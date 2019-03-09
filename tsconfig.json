@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "module": "commonjs",
+    "target": "es5",
+    "lib": ["es5", "es2015", "es2017"],
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "rootDirs": ["src"],
+    "removeComments": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "declaration": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "lib", "lib-esm", "lib"]
+}
