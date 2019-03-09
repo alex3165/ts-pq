@@ -5,6 +5,8 @@ A Typescript priority queue for grid node values
 ## How to use
 
 ```javascript
+import { PriorityQueue } from 'ts-pq';
+
 const pq = new PriorityQueue();
 
 pq.insert({ x: 0, y: 1 }, 2);
